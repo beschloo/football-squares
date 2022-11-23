@@ -7,12 +7,15 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="prizes">
-    <h2>🏆 Prizes</h2>
-    <h4>1st Quarter - $50</h4>
-    <h4>HALF - $150</h4>
-    <h4>3rd Quarter - $50</h4>
-    <h4>FINAL - $250</h4>
+  <div class="wrap">
+    <div class="prizes">
+      <h2>🏆 Prizes</h2>
+      <h4>1st Quarter - $50</h4>
+      <h4>HALF - $150</h4>
+      <h4>3rd Quarter - $50</h4>
+      <h4>FINAL - $250</h4>
+    </div>
+    <img src="https://knittingraysofhope.files.wordpress.com/2019/11/200.gif" alt="">
   </div>
   <div class="board">
     <svg viewBox="0 0 1521 1437" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -274,6 +277,15 @@
 </html>
 
 <style>
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap img {
+  height: 113px;
+}
+
 .prizes {
   display: flex;
   flex-direction: column;
