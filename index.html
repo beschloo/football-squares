@@ -7,6 +7,13 @@
   <title>Document</title>
 </head>
 <body>
+  <div class="prizes">
+    <h2>Prizes</h2>
+    <h4>1st Quarter - $50</h4>
+    <h4>HALF - $150</h4>
+    <h4>3rd Quarter - $50</h4>
+    <h4>1st Quarter - $250</h4>
+  </div>
   <div class="board">
     <svg width="1521" height="1437" viewBox="0 0 1521 1437" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g clip-path="url(#clip0_1_30)">
@@ -248,8 +255,25 @@
 </html>
 
 <style>
+.prizes {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.prizes h4 {
+  margin: 8px 0;
+}
+
+.prizes h2 {
+  margin-bottom: 16px;
+}
+
   .board {
     width: 100%;
+    display: flex;
+    align-items: flex-start;
   }
 
   .board svg {
